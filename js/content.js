@@ -12,17 +12,17 @@ window.PORTFOLIO = {
      - label: small tab shown above the card ("" = no tab)
      The first card starts half off-screen, so "Latest drop" goes second. */
   heroStrip: [
-    { label: "",            image: "thumbnails/gibson.webp" },
-    { label: "Latest drop", image: "thumbnails/invest-split-A.webp" },
+    { label: "",            image: "thumbnails/why-i-switched-A.webp" },
+    { label: "Latest drop", image: "thumbnails/airrack.webp" },
+    { label: "",            image: "thumbnails/invest-split-A.webp" },
     { label: "",            image: "thumbnails/just-copy-me-A.webp" },
     { label: "",            image: "thumbnails/donut-burger-A.webp" },
     { label: "",            image: "thumbnails/iman-gadzhi-million-A.webp" },
-    { label: "",            image: "thumbnails/how-he-tricked-us-A.webp" },
-    { label: "",            image: "thumbnails/why-i-switched-A.webp" }
+    { label: "",            image: "thumbnails/how-he-tricked-us-A.webp" }
   ],
 
   /* "Selected work" gallery. Cards with an image open full size on click.
-     - title:    shown on the card ("Concept #8" for the next one)
+     - title:    shown on the card ("Concept #9" for the next one)
      - desc:     short description, used for screen readers and search
      - category: used for the filter chips (new categories appear automatically)
      - variantA: image for variant A ("" = placeholder)
@@ -34,6 +34,7 @@ window.PORTFOLIO = {
      - concept:  true = practice redesign (shows a "Concept" label next to the
                  channel name). Remove it once the creator actually hires you. */
   work: [
+    { category: "Entertainment", title: "Concept #8", desc: "Hiding in a suitcase at airport security", channel: "Airrack", concept: true, views: "", variantA: "thumbnails/airrack.webp", variantB: null, avatar: "" },
     { category: "Finance",     title: "Concept #7", desc: "The 50/25/25 Split", abNote: "Office vs. home studio background", channel: "", views: "", variantA: "thumbnails/invest-split-A.webp", variantB: "thumbnails/invest-split-B.webp", avatar: "" },
     { category: "Informative", title: "Concept #6", desc: "Just Copy Me", abNote: "“Just copy me” vs. “The Blueprint”", channel: "", views: "", variantA: "thumbnails/just-copy-me-A.webp", variantB: "thumbnails/just-copy-me-B.webp", avatar: "" },
     { category: "Food",        title: "Concept #5", desc: "So Disgusting", abNote: "1-star review bubble vs. no text", channel: "", views: "", variantA: "thumbnails/donut-burger-A.webp", variantB: "thumbnails/donut-burger-B.webp", avatar: "" },
