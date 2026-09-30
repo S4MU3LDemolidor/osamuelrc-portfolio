@@ -34,9 +34,11 @@ New categories get their own filter chip automatically, and every card with an i
 
 Your full-quality originals live in `../thumbnail-originals/` (outside this folder, so they are never published or pushed to GitHub).
 
-## Still to do once the site is live
-- Make `og:image` / `twitter:image` in `index.html` full URLs (https://your-site/assets/og-image.jpg), and add `og:url`, a canonical link and `sitemap.xml` (plus a `Sitemap:` line in `robots.txt`).
+## Live site
+https://osamuelrc-portfolio.vercel.app
+
 - Update "5 spots open this month" in the final section whenever it changes.
+- Moving to your own domain later? Replace `https://osamuelrc-portfolio.vercel.app` in `index.html` (canonical link, og:url, og:image, twitter:image), `sitemap.xml` and `robots.txt`.
 
 ## Sections parked for later
 *How the thumbnails perform*, *Channels & brands I've worked with* and *What it's like working with me*
