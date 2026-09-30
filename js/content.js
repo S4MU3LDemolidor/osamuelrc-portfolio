@@ -37,9 +37,9 @@ window.PORTFOLIO = {
     { category: "Finance",     title: "Concept #7", desc: "The 50/25/25 Split", abNote: "Office vs. home studio background", channel: "", views: "", variantA: "thumbnails/invest-split-A.webp", variantB: "thumbnails/invest-split-B.webp", avatar: "" },
     { category: "Informative", title: "Concept #6", desc: "Just Copy Me", abNote: "“Just copy me” vs. “The Blueprint”", channel: "", views: "", variantA: "thumbnails/just-copy-me-A.webp", variantB: "thumbnails/just-copy-me-B.webp", avatar: "" },
     { category: "Food",        title: "Concept #5", desc: "So Disgusting", abNote: "1-star review bubble vs. no text", channel: "", views: "", variantA: "thumbnails/donut-burger-A.webp", variantB: "thumbnails/donut-burger-B.webp", avatar: "" },
-    { category: "Finance",     title: "Concept #4", desc: "$1 Million", abNote: "The amount in words vs. in digits", channel: "Iman Gadzhi", concept: true, views: "", variantA: "thumbnails/iman-gadzhi-million-A.webp", variantB: "thumbnails/iman-gadzhi-million-B.webp", avatar: "" },
-    { category: "Finance",     title: "Concept #3", desc: "How He Tricked All of Us", abNote: "Two different hooks, mirrored layout", channel: "", views: "", variantA: "thumbnails/how-he-tricked-us-A.webp", variantB: "thumbnails/how-he-tricked-us-B.webp", avatar: "" },
+    { category: "Finance",     title: "Concept #4", desc: "$1 Million", channel: "Iman Gadzhi", concept: true, views: "", variantA: "thumbnails/iman-gadzhi-million-A.webp", variantB: null, avatar: "" },
+    { category: "Finance",     title: "Concept #3", desc: "How He Tricked All of Us", channel: "", views: "", variantA: "thumbnails/how-he-tricked-us-A.webp", variantB: null, avatar: "" },
     { category: "Tech",        title: "Concept #2", desc: "Why I Switched", abNote: "App logos vs. code editor background", channel: "Chris Raroque", concept: true, views: "", variantA: "thumbnails/why-i-switched-A.webp", variantB: "thumbnails/why-i-switched-B.webp", avatar: "thumbnails/avatar-chris-raroque.jpg" },
-    { category: "Informative", title: "Concept #1", desc: "I Wish I Knew Sooner", abNote: "“I Wish I Knew Sooner” vs. “Don’t skip this”", channel: "Leo Gibson", concept: true, views: "", variantA: "thumbnails/gibson.webp", variantB: "thumbnails/gibsonB.webp", avatar: "thumbnails/avatar-leo-gibson.jpg" }
+    { category: "Informative", title: "Concept #1", desc: "I Wish I Knew Sooner", channel: "Leo Gibson", concept: true, views: "", variantA: "thumbnails/gibson.webp", variantB: null, avatar: "thumbnails/avatar-leo-gibson.jpg" }
   ]
 };
