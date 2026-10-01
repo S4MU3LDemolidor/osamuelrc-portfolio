@@ -22,7 +22,7 @@ window.PORTFOLIO = {
   ],
 
   /* "Selected work" gallery. Cards with an image open full size on click.
-     - title:    shown on the card ("Concept #9" for the next one)
+     - title:    shown on the card ("Concept #15" for the next one)
      - desc:     short description, used for screen readers and search
      - category: used for the filter chips (new categories appear automatically)
      - variantA: image for variant A ("" = placeholder)
@@ -34,6 +34,12 @@ window.PORTFOLIO = {
      - concept:  true = practice redesign (shows a "Concept" label next to the
                  channel name). Remove it once the creator actually hires you. */
   work: [
+    { category: "Gaming",      title: "Concept #14", desc: "Valorant: “ENEMY”", channel: "", views: "", variantA: "thumbnails/valorant-6.webp", variantB: null, avatar: "" },
+    { category: "Gaming",      title: "Concept #13", desc: "Valorant: Neon five-kill feed", channel: "", views: "", variantA: "thumbnails/valorant-5.webp", variantB: null, avatar: "" },
+    { category: "Gaming",      title: "Concept #12", desc: "Valorant: “Fade ur sooo good!!!!”", channel: "", views: "", variantA: "thumbnails/valorant-4.webp", variantB: null, avatar: "" },
+    { category: "Gaming",      title: "Concept #11", desc: "Valorant: “ur so smart wtf????”", channel: "", views: "", variantA: "thumbnails/valorant-3.webp", variantB: null, avatar: "" },
+    { category: "Gaming",      title: "Concept #10", desc: "Valorant: “ISO IS BROKEN”", channel: "", views: "", variantA: "thumbnails/valorant-2.webp", variantB: null, avatar: "" },
+    { category: "Gaming",      title: "Concept #9", desc: "Valorant: “You are insane fade”", channel: "", views: "", variantA: "thumbnails/valorant-1.webp", variantB: null, avatar: "" },
     { category: "Entertainment", title: "Concept #8", desc: "Hiding in a suitcase at airport security", channel: "Airrack", concept: true, views: "", variantA: "thumbnails/airrack.webp", variantB: null, avatar: "" },
     { category: "Finance",     title: "Concept #7", desc: "The 50/25/25 Split", abNote: "Office vs. home studio background", channel: "", views: "", variantA: "thumbnails/invest-split-A.webp", variantB: "thumbnails/invest-split-B.webp", avatar: "" },
     { category: "Informative", title: "Concept #6", desc: "Just Copy Me", abNote: "“Just copy me” vs. “The Blueprint”", channel: "", views: "", variantA: "thumbnails/just-copy-me-A.webp", variantB: "thumbnails/just-copy-me-B.webp", avatar: "" },
